@@ -1,30 +1,43 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <div>
-        <ul>
-            <li><a href="html/tablas.html"><h2>Ir a tablas</h2></a></li>
-            <li><a href="html/form.html"><h2>Ir a formularios</h2></a></li>
-            <li><a href="html/text.html"><h2>Ir a texto</h2></a></li>
-            <li><a href="html/semantic.html"><h2>Ir a semantica</h2></a></li>
-            <li><a href="html/multimedia.html"><h2>Ir a multimedia</h2></a></li>
-            <li><a href="html/group.html"><h2>Ir a grupos</h2></a></li>
-            <li><a href="html/flexbox.html"><h2>Ir a flexbox</h2></a></li>
-
-            <li><a href="html/estilos.html"><h2>Ir a css</h2></a></li>
-
-
-            <!-- shift + alt + fecha abajo: Duplico linea -->
-            <!-- shift + alt + k: borrar linea -->
-
-
-        </ul>
+    <div class="backroung"></div>
+    <div class="centering">
+        <!-- for.my_form -->
+        <form action="" class="my_form">
+            <!-- .login_welcome -->
+            <div class="login_welcome">
+                <img src="./multimedia/astronauta.jpg" alt="" class="login">
+                <h1>Iniciar sesion</h1>
+            </div>
+            <div class="text_field">
+                <label for="">Email</label>
+                <input type="email" id="email" aria-label="email" placeholder="ingrese su email" required>
+                <img src="./multimedia/email-svgrepo-com.svg" alt="Email Icon" title="Email Icon" </div>
+                <div>
+                    <div class="text_field">
+                     <label for="">password</label>
+                     <input type="password" id="password" aria-label="password" placeholder="ingrese su contraseña" required>
+                     <img src="" alt="Email Icon" title="Email Icon">
+                     </div>
+                     <input type="submit" class="my_form_button" value="Login"> <div class="form_my_actions">
+                     <div class="my_form:row">
+                        <span>Olvidaste tu contraseña?</span>
+                        <a href="#" title="Recuperar contraseña">Recuperar contraseña</a>
+                    </div>
+                    <div class="my_form-singup">
+                        <a href="#" title="crear cuenta">Crear cuenta</a>
+                    </div>
+                </div>
+        </form>
     </div>
-
 </body>
+
 </html>
